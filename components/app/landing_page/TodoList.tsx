@@ -27,7 +27,7 @@ export default function TodoList() {
   const [updatingId, setUpdatingId] = useState<string | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [page, setPage] = useState(1)
-  const pageSize = 10
+  const pageSize = 4
   const [totalCount, setTotalCount] = useState(0)
 
   const fetchTodos = async () => {
